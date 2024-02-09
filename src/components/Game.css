@@ -1,0 +1,28 @@
+  h2 {
+    color: rgb(92, 62, 25);
+    /* font-family: Luminari, fantasy; */
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.7rem;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+  }
+  
+  p {
+    font-size: 20px;
+  }
+  
+  .card-grid {
+    width: 1080px;
+    height: auto;
+    margin-top: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 6px 0;
+    /* margin-top: 14px; */
+    .card {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0;
+    }
+  }
