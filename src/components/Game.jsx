@@ -29,14 +29,17 @@ const cardImages = [
   
   
     const handleCardClick = (id) => {
+      // Cannot open the 2 cards at the same time
       if (flippedCards.length === 2) {
         return;
       }
-  
+      
+      // Cannot open the same card
       if (flippedCards.includes(id)) {
         return;
       }
   
+      // Now meaning a new card is clicked!
       setFlippedCards([...flippedCards, id]);
   
       if (flippedCards.length === 1) {
